@@ -1,0 +1,59 @@
+{
+    "CS 271": {
+        "Name": "Web Development",
+        "Term": "Fa",
+        "Sections": [
+            {
+                "CRN": 13820,
+                "Number": "001",
+                "Instructor": "Robin Hess",
+                "Days": "TR",
+                "StartTime": 1400,
+                "EndTime": 1550,
+                "Enrollment": 0
+            }
+        ]
+    },
+
+    "CS 352": {
+        "Name": "Software Engineering 1",
+        "Term": "Fa",
+        "Sections": [
+            {
+                "CRN": 11227,
+                "Number": "001",
+                "Instructor": "Raffaele De Amicis",
+                "Days": "TR",
+                "StartTime": 1600,
+                "EndTime": 1750,
+                "Enrollment": 0
+            }
+        ]
+    },
+
+    "CS 372": {
+        "Name": "Introduction to Computer Networks",
+        "Term": "Fa",
+        "Sections": [
+            {
+                "CRN": 12177,
+                "Number": "001",
+                "Instructor": "Yipeng Song",
+                "Days": "MW",
+                "StartTime": 1200,
+                "EndTime": 1350,
+                "Enrollment": 0
+            },
+
+            {
+                "CRN": 13522,
+                "Number": "501",
+                "Instructor": "Cascades",
+                "Days": "MW",
+                "StartTime": 800,
+                "EndTime": 950,
+                "Enrollment": 0
+            }
+        ]
+    } 
+}
