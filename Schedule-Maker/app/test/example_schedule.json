@@ -1,10 +1,55 @@
-{
-    "CS 271": {
-        "Name": "Web Development",
-        "Term": "Fa",
+[
+    {
+        "Code": "CS 161",
+        "Name": "Engineering Computation and Algorithmic Thinking",
+        "Term": "Wi",
+        "Prerequisites": [],
         "Sections": [
             {
-                "CRN": 13820,
+                "CRN": "40067",
+                "Number": "010",
+                "Instructor": "Yipeng Song",
+                "Days": "MW",
+                "StartTime": 1000,
+                "EndTime": 1050,
+                "Enrollment": 63
+            } 
+        ]
+    },
+
+    {
+        "Code": "CS 162",
+        "Name": "Introduction to Comptuer Science II",
+        "Term": "Wi",
+        "Prerequisites": [["CS 161"], ["ECE 161"]],
+        "Sections": [
+            {
+                "CRN": 34085,
+                "Number": "001",
+                "Instructor": "Brandilyn Coker",
+                "Days": "MWF",
+                "StartTime": 1000,
+                "EndTime": 1050,
+                "Enrollment": 76
+            }
+        ]
+    },
+
+    {
+        "Code": "CS 261",
+        "Name": "Data Structures",
+        "Term": "Wi",
+        "Prerequisites": [["CS 162", "CS 165"], ["CS 225", "MTH 231", "MTH 231H"]]
+    },
+
+    {
+        "Code": "CS 290",
+        "Name": "Web Development",
+        "Term": "Fa",
+        "Prerequisites": [["CS 151"], ["CS 161", "CS 165"]],
+        "Sections": [
+            {
+                "CRN": "13820",
                 "Number": "001",
                 "Instructor": "Robin Hess",
                 "Days": "TR",
@@ -15,12 +60,14 @@
         ]
     },
 
-    "CS 352": {
+    {
+        "Code": "CS 361",
         "Name": "Software Engineering 1",
         "Term": "Fa",
+        "Prerequisites": [],
         "Sections": [
             {
-                "CRN": 11227,
+                "CRN": "11227",
                 "Number": "001",
                 "Instructor": "Raffaele De Amicis",
                 "Days": "TR",
@@ -31,12 +78,14 @@
         ]
     },
 
-    "CS 372": {
+    {
+        "Code": "CS 372",
         "Name": "Introduction to Computer Networks",
         "Term": "Fa",
+        "Prerequisites": [["CS 261"], ["ECE 271", "CS 271"]],
         "Sections": [
             {
-                "CRN": 12177,
+                "CRN": "12177",
                 "Number": "001",
                 "Instructor": "Yipeng Song",
                 "Days": "MW",
@@ -46,7 +95,7 @@
             },
 
             {
-                "CRN": 13522,
+                "CRN": "13522",
                 "Number": "501",
                 "Instructor": "Cascades",
                 "Days": "MW",
@@ -56,4 +105,4 @@
             }
         ]
     } 
-}
+]
